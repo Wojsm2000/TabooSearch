@@ -34,3 +34,5 @@ Array swap is a method of creating neighbours where two indices are chosen and p
 #### Insert swap
 
 Array swap is a method of creating neighbours where a value and an index are taken and the given value is inserted into the array at the given place.
+
+## Data input 
