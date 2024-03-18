@@ -21,4 +21,12 @@ In given code one can choose between three given finding neighbour's methods:
 
 #### Normal swap
 
+Normal swap is method of creation of neighbours where two values in array are chosen and thier places are swapped. 
 
+#### Array swap
+
+Array swap is method of creation of neighbours where two indexes are picked and part of an array which is set between those two indexes is reversed.
+
+###  Insert swap
+
+Array swap is method of creation of neighbours where one value and one index is picked and given value is inserted into array in place given  
