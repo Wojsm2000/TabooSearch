@@ -1,32 +1,37 @@
 # Tabu Search
-Repository contains code which implements tabu search - metaheuristics for solving optimization problems. 
-If one would like to extend one's knowledge about theory of tabu search follow these links:
+
+The repository contains code implementing tabu search - a metaheuristic for solving optimisation problems. If you would like to expand your knowledge of the theory of tabu search, follow these links:
 * https://en.wikipedia.org/wiki/Tabu_search
 * https://www.baeldung.com/cs/tabu-search
 * https://www.researchgate.net/publication/242527226_Tabu_Search_A_Tutorial
 
 ## Code overview
-Repo contains two separte files. Each coresponds to two diffrent problems: 
+
+Repo contains two separate files. Each corresponds to two different problems:
 * [traveling salesman problem](taboo_for_cities.py)
 * [task scheduling problem](taboo_for_tasks.py)
 
-Above code could and should be modified only where it comes to calculation of some sort value function (according to given problem).
 
-## Neighbours finding methods
+The above code could and should only be modified when it comes to calculating some kind of value function (according to the given problem).
 
-In given code one can choose between three given finding neighbour's methods:
+
+## Methods for finding neighbours
+
+In the given code one can choose between three given neighbour finding methods:
 * normal swap
 * array swap
 * insert swap
 
 #### Normal swap
 
-Normal swap is method of creation of neighbours where two values in array are chosen and thier places are swapped. 
+
+Normal swap is a method of creating neighbours in which two values in an array are selected and their places swapped.
 
 #### Array swap
 
-Array swap is method of creation of neighbours where two indexes are picked and part of an array which is set between those two indexes is reversed.
+
+Array swap is a method of creating neighbours where two indices are chosen and part of an array set between those two indices is swapped.
 
 ###  Insert swap
 
-Array swap is method of creation of neighbours where one value and one index is picked and given value is inserted into array in place given  
+Array swap is a method of creating neighbours where a value and an index are taken and the given value is inserted into the array at the given place.
