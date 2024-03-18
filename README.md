@@ -29,9 +29,8 @@ Normal swap is a method of creating neighbours in which two values in an array a
 
 #### Array swap
 
-
 Array swap is a method of creating neighbours where two indices are chosen and part of an array set between those two indices is swapped.
 
-### Insert swap
+#### Insert swap
 
 Array swap is a method of creating neighbours where a value and an index are taken and the given value is inserted into the array at the given place.
